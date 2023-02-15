@@ -9,7 +9,7 @@ This is source code and PKGBUILD for [ibus-daemon](https://aur.archlinux.org/pac
 ## Installation
 
 ```sh
-yay -S ibus-daemon
+yay -S ibus-daemon-de
 ```
 
 ## License
