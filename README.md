@@ -1,10 +1,10 @@
-# ibus-daemon
+# ibus-daemon-de
 
-SystemD user service for IBus.
+SystemD user service for IBus (desktop environment specific).
 
 ## Description
 
-This is source code and PKGBUILD for [ibus-daemon](https://aur.archlinux.org/packages/ibus-daemon/) AUR package.
+This is source code and PKGBUILD for [ibus-daemon-de][ibus] AUR package.
 
 ## Installation
 
@@ -12,6 +12,24 @@ This is source code and PKGBUILD for [ibus-daemon](https://aur.archlinux.org/pac
 yay -S ibus-daemon-de
 ```
 
+## Usage
+
+Enable
+
+```sh
+enable-ibus-daemon
+```
+
+Disable
+
+```sh
+enable-ibus-daemon -d
+```
+
 ## License
 
-[MIT](https://git.io/JJmcK) © [Hoàng Văn Khải](https://github.com/KSXGitHub/).
+[MIT][mit] © [shadichy][gh].
+
+[ibus]: https://aur.archlinux.org/packages/ibus-daemon-de/
+[mit]: https://git.io/JJmcK
+[gh]: https://github.com/shadichy/
